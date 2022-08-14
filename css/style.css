@@ -225,7 +225,7 @@ figure {
 
 #fh5co-header .display-tc .fh5co-social-icons li a,
 .fh5co-cover .display-tc .fh5co-social-icons li a {
-  color: #515151;
+  color: #bfbfbf;
 }
 
 #fh5co-header .display-tc .fh5co-social-icons li a i,
@@ -398,7 +398,7 @@ figure {
   display: inline-block;
   zoom: 1;
   *display: inline;
-  color: #515151;
+  color: #bfbfbf;
   padding-left: 10px;
   padding-right: 10px;
 }
