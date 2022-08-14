@@ -5,11 +5,7 @@
   font-weight: normal;
   font-style: normal;
 }
-/* =======================================================
-*
-* 	Template Style 
-*
-* ======================================================= */
+
 body {
   font-family: "Space Mono", Arial, serif;
   font-weight: 400;
@@ -17,6 +13,10 @@ body {
   line-height: 1.7;
   color: #4d4d4d;
   background: #fff;
+}
+
+:root {
+  color-scheme: dark;
 }
 
 #page {
@@ -206,7 +206,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-features {
-  background: #FF9000;
+  background: #515151;
 }
 #fh5co-features h2 {
   color: #515151;
@@ -241,7 +241,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: table-cell;
   vertical-align: middle;
   height: 100px;
-  color: #FF9000 !important;
+  color: #515151 !important;
 }
 #fh5co-features .feature-left .feature-copy {
   width: 100%;
@@ -349,7 +349,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: inline-block;
   zoom: 1;
   *display: inline;
-  color: #FF9000;
+  color: #515151;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -766,7 +766,7 @@ h1, h2, h3, h4, h5, h6, figure {
   height: 54px;
   border: none !important;
   background: #fff;
-  color: #FF9000;
+  color: #515151;
   font-size: 16px;
   text-transform: uppercase;
   font-weight: 400;
@@ -1054,21 +1054,21 @@ input[type="text"] {
 }
 
 .btn-primary {
-  background: #FF9000;
+  background: #515151;
   color: #fff;
-  border: 2px solid #FF9000;
+  border: 2px solid #515151;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background: #ff9b1a !important;
-  border-color: #ff9b1a !important;
+  background: #515151 !important;
+  border-color: #515151 !important;
 }
 .btn-primary.btn-outline {
   background: transparent;
-  color: #FF9000;
-  border: 2px solid #FF9000;
+  color: #515151;
+  border: 2px solid #515151;
 }
 .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-  background: #FF9000;
+  background: #515151;
   color: #fff;
 }
 
@@ -1198,7 +1198,7 @@ input[type="text"] {
 .form-control:active, .form-control:focus {
   outline: none;
   box-shadow: none;
-  border-color: #FF9000;
+  border-color: #515151;
 }
 
 .row-pb-md {
@@ -1232,5 +1232,3 @@ input[type="text"] {
 .js .animate-box {
   opacity: 0;
 }
-
-/*# sourceMappingURL=style.css.map */
