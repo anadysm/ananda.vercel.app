@@ -1,612 +1,243 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Ananda Prasetyo</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="Ananda Prasetyo" content="Personal Website" />
-    <meta
-      name="keywords"
-      content="Ananda Prasetyo, Personal Website, Resume, Portfolio, Profile"
+    <link rel="stylesheet" type="text/css" href="/assets/css/plugins.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&amp;subset=latin-ext"
     />
-    <meta name="author" content="Ananda Prasetyo" />
-    <meta property="og:site_name" content="Ananda Prasetyo" />
-    <meta property="og:title" content="Ananda Prasetyo" />
-    <meta property="og:description" content="UI/UX Designer, IT Support" />
-    <meta
-      property="og:image"
-      content="https://ananda.vercel.app/images/share.jpg"
-    />
-    <meta property="og:url" content="https://ananda.vercel.app/" />
-    <meta property="og:type" content="website" />
-    <meta property="og:locale" content="en_ID" />
-    <meta name="twitter:title" content="Ananda Prasetyo" />
-    <meta
-      name="twitter:image"
-      content="https://ananda.vercel.app/images/share.jpg"
-    />
-    <meta name="twitter:url" content="https://ananda.vercel.app/" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
     <link
       rel="apple-touch-icon"
       sizes="57x57"
-      href="images/favicon/apple-icon-57x57.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="60x60"
-      href="images/favicon/apple-icon-60x60.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="72x72"
-      href="images/favicon/apple-icon-72x72.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="76x76"
-      href="images/favicon/apple-icon-76x76.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="114x114"
-      href="images/favicon/apple-icon-114x114.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="120x120"
-      href="images/favicon/apple-icon-120x120.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="144x144"
-      href="images/favicon/apple-icon-144x144.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="152x152"
-      href="images/favicon/apple-icon-152x152.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="images/favicon/apple-icon-180x180.png"
+      href="/assets/img/common/apple-icon-57x57.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="192x192"
-      href="images/favicon/android-icon-192x192.png"
+      href="/assets/img/common/android-icon-192x192.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="images/favicon/favicon-32x32.png"
+      href="/assets/img/common/favicon-32x32.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="96x96"
-      href="images/favicon/favicon-96x96.png"
+      href="/assets/img/common/favicon-96x96.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="16x16"
-      href="images/favicon/favicon-16x16.png"
+      href="/assets/img/common/favicon-16x16.png"
     />
-    <link rel="manifest" href="images/favicon/manifest.json" />
+    <link rel="manifest" href="/manifest.json" />
     <meta name="msapplication-TileColor" content="#ffffff" />
     <meta
-      name="msapplication-TileImage"
-      content="images/favicon/ms-icon-144x144.png"
+      name="description"
+      content="Ananda Prasetyo resume including background education, 
+      work experience and skills."
     />
-    <meta name="theme-color" content="#ffffff" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Space+Mono"
-      rel="stylesheet"
+    <meta property="og:title" content="Ananda Prasetyo" />
+    <meta property="og:description" content="Profile" />
+    <meta
+      property="og:image"
+      content="https://ananda.vercel.app/assets/img/common/share.jpg"
     />
-    <link
-      href="https://fonts.googleapis.com/css?family=Kaushan+Script"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/animate.css" />
-    <link rel="stylesheet" href="css/icomoon.css" />
-    <link rel="stylesheet" href="css/bootstrap.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <script src="js/modernizr-2.6.2.min.js"></script>
+    <meta property="og:url" content="https://ananda.vercel.app/resume" />
+    <meta property="og:site_name" content="Ananda Prasetyo" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_ID" />
   </head>
   <body>
-    <div class="fh5co-loader"></div>
-
-    <div id="page">
-      <header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner">
-        <div class="overlay"></div>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-8 col-md-offset-2 text-center">
-              <div class="display-t js-fullheight">
+    <div class="preloader">
+      <div class="spinner"></div>
+    </div>
+    <div class="content-area">
+      <nav class="navbar">
+        <div class="content">
+          <p>
+            <b id="lightBtn" onclick="setLightMode()">[<del>L:ght</del>]</b>
+          </p>
+          <div style="display: none"><b class="desc"></b></div>
+          <p><b class="temp"></b></p>
+        </div>
+      </nav>
+      <div class="content-area-inner" style="padding-top: 85px">
+        <section id="service">
+          <div id="work">
+            <div class="showcase">
+              <div class="item" style="pointer-events: none">
                 <div
-                  class="display-tc js-fullheight animate-box"
-                  data-animate-effect="fadeIn"
-                >
-                  <div
-                    class="profile-thumb"
-                    style="background: url(images/ananda.jpg)"
-                  ></div>
-                  <h1>
-                    <span>Ananda Prasetyo</span>
-                  </h1>
-                  <h3>
-                    <span>UI/UX Designer, IT Support</span>
-                  </h3>
-                  <p></p>
-                  <ul class="fh5co-social-icons">
-                    <li>
-                      <a
-                        href="https://www.linkedin.com/in/anadysm/"
-                        target="_blank"
-                        rel="noreferrer"
-                        ><i class="icon-linkedin2"></i
-                      ></a>
-                    </li>
-                    <li>
-                      <a
-                        href="https://github.com/anadysm/"
-                        target="_blank"
-                        rel="noreferrer"
-                        ><i class="icon-github2"></i
-                      ></a>
-                    </li>
-                    <li>
-                      <a
-                        href="https://t.me/anadysm"
-                        target="_blank"
-                        rel="noreferrer"
-                        ><i class="icon-telegram"></i
-                      ></a>
-                    </li>
-                    <li>
-                      <a
-                        href="https://instagram.com/anadysm"
-                        target="_blank"
-                        rel="noreferrer"
-                        ><i class="icon-instagram2"></i
-                      ></a>
-                    </li>
-                    <li>
-                      <a
-                        href="mailto:anadysm@gmail.com"
-                        target="_blank"
-                        rel="noreferrer"
-                        ><i class="icon-email"></i
-                      ></a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </header>
-
-      <div id="fh5co-about" class="animate-box">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-              <h2>About Me</h2>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-4">
-              <ul class="info">
-                <li>
-                  <span class="first-block">Full Name:</span
-                  ><span class="second-block">Ananda Dwi Prasetyo</span>
-                </li>
-                <li>
-                  <span class="first-block">Phone:</span
-                  ><span class="second-block">+62 851-5885-1911</span>
-                </li>
-                <li>
-                  <span class="first-block">Email:</span
-                  ><span class="second-block">anadysm@gmail.com</span>
-                </li>
-                <li>
-                  <span class="first-block">Website:</span
-                  ><span class="second-block">ananda.vercell.app</span>
-                </li>
-                <li>
-                  <span class="first-block">Address:</span
-                  ><span class="second-block"
-                    >Sidoarjo, 61271 Jawa Timur Indonesia
-                  </span>
-                </li>
-              </ul>
-            </div>
-            <div class="col-md-8">
-              <h2>Hello There!</h2>
-              <p>
-                My given name is Ananda Dwi Prasetyo, usually called Pras or
-                Nanda. I like to use sycwell or anadysm as my username, because
-                it's unique and has no meaning. Born in 2000,
-                <a
-                  href="https://www.16personalities.com/enfj-personality"
-                  target="_blank"
-                  rel="noreferrer"
-                  >ENFJ-A</a
-                >, and live at
-                <a
-                  href="https://www.google.com/search?q=Sidoarjo"
-                  target="_blank"
-                  rel="noreferrer"
-                  >Sidoarjo</a
-                >. I love design, music, gaming, and audio gear. I have a
-                bachelor's degree in informatics from
-                <a href="https://umsida.ac.id" target="_blank" rel="noreferrer"
-                  >here</a
-                >. I develop some website and apps, you can see my portfolio
-                down there. In my spare time, I like to drink some coffee, watch
-                <a
-                  href="https://letterboxd.com/sycwell/"
-                  target="_blank"
-                  rel="noreferrer"
-                  >movie</a
-                >
-                and think some philosophy of
-                <a
-                  href="https://www.youtube.com/playlist?list=PLcMl1JCzx1oKvWKstYWa9Tflvitia6HTA"
-                  target="_blank"
-                  rel="noreferrer"
-                  >lyfe</a
-                >. If you want to know more about me you can see my resume
-                below. And if you still curious, you can
-                <a
-                  href="mailto:sycwell@gmail.com"
-                  target="_blank"
-                  rel="noreferrer"
-                  >reach</a
-                >
-                me, let's talk!
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div id="fh5co-resume" class="fh5co-bg-dark">
-        <div class="container">
-          <div class="row animate-box">
-            <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-              <h2>My Resume</h2>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-12 col-md-offset-0">
-              <ul class="timeline">
-                <li class="timeline-heading text-center animate-box">
-                  <div><h3>Experiences</h3></div>
-                </li>
-                <li class="animate-box timeline-unverted">
-                  <div class="timeline-badge">
-                    <i class="icon-suitcase"></i>
-                  </div>
-                  <div class="timeline-panel">
-                    <div class="timeline-heading">
-                      <h3 class="timeline-title">Invoice Administrator</h3>
-                      <span class="company"
-                        >PT. Mandiri Jaya Steel (Jul 2023 - present)</span
-                      >
-                    </div>
-                    <div class="timeline-body">
-                      <p>
-                        Create accurate invoices, managing invoice archives, and
-                        prepare return letters. Maintain records and handle
-                        queries using invoicing software. Skilled in
-                        collaborating with cross-functional teams and ensuring
-                        compliance with legal and regulatory requirements.
-                      </p>
-                    </div>
-                  </div>
-                </li>
-
-                <li class="animate-box timeline-inverted">
-                  <div class="timeline-badge">
-                    <i class="icon-suitcase"></i>
-                  </div>
-                  <div class="timeline-panel">
-                    <div class="timeline-heading">
-                      <h3 class="timeline-title">Inventory Administrator</h3>
-                      <span class="company"
-                        >PT. Mandiri Jaya Steel (May-Jun 2023)</span
-                      >
-                    </div>
-                    <div class="timeline-body">
-                      <p>
-                        Organize and record inventory in and out of the
-                        company's warehouse using Accurate and the Microsoft
-                        Excel program. Entering orders from inventory form and
-                        managing the received delivery documents.
-                      </p>
-                    </div>
-                  </div>
-                </li>
-
-                <li class="animate-box timeline-unverted">
-                  <div class="timeline-badge">
-                    <i class="icon-suitcase"></i>
-                  </div>
-                  <div class="timeline-panel">
-                    <div class="timeline-heading">
-                      <h3 class="timeline-title">
-                        Network Anomaly Control Support
-                      </h3>
-                      <span class="company"
-                        >PT. Telkom Indonesia, Tbk (Sep-Oct 2020)</span
-                      >
-                    </div>
-                    <div class="timeline-body">
-                      <p>
-                        Assigned to collect and process attenuation measurement
-                        data on Telkom's network. Responsible for the customer
-                        network's experience with an anomaly and the search for
-                        status or information pertaining to it.
-                      </p>
-                    </div>
-                  </div>
-                </li>
-
-                <br />
-                <li class="timeline-heading text-center animate-box">
-                  <div><h3>Education</h3></div>
-                </li>
-
-                <li class="animate-box timeline-inverted">
-                  <div class="timeline-badge">
-                    <i class="icon-graduation-cap"></i>
-                  </div>
-                  <div class="timeline-panel">
-                    <div class="timeline-heading">
-                      <h3 class="timeline-title">Bachelor of Informatics</h3>
-                      <span class="company"
-                        >Universitas Muhammadiyah Sidoarjo (2018 - 2022)</span
-                      >
-                    </div>
-                    <div class="timeline-body">
-                      <p>
-                        Learn the basics of program development, database
-                        creation, system design with various methods, and UI/UX
-                        design.
-                      </p>
-                      <p>GPA: 3.6/4.0</p>
-                    </div>
-                  </div>
-                </li>
-
-                <br />
-                <li class="timeline-heading text-center animate-box">
-                  <div><h3>Publication</h3></div>
-                </li>
-
-                <li class="animate-box timeline-unverted">
-                  <div class="timeline-badge">
-                    <i class="icon-book"></i>
-                  </div>
-                  <div class="timeline-panel">
-                    <div class="timeline-heading">
-                      <h3 class="timeline-title">
-                        Web Service Based Facility Damage Report
-                      </h3>
-                      <span class="company">JIPI Vol 7 No 4 (Dec - 2022)</span>
-                    </div>
-                    <div class="timeline-body">
-                      <p>
-                        Result of this research is a web service-based facility
-                        damage report system, that allows data to be accessed
-                        freely and in real time.
-                      </p>
-                      <a
-                        href="https://doi.org/10.29100/jipi.v7i4.3259"
-                        target="_blank"
-                        rel="noreferrer"
-                        >doi.org/jipi.v7i4.3259</a
-                      >
-                    </div>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div id="fh5co-blog">
-        <div class="container">
-          <div class="row animate-box">
-            <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-              <h2>Portfolio</h2>
-              <p>Here's some projects I work on college:</p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-4">
-              <div class="fh5co-blog animate-box">
-                <div
-                  class="blog-bg"
-                  style="background-image: url(images/portfolio/citizen-h.jpg)"
+                  class="background-image"
+                  style="background-image: url(/assets/img/profile/ananda.jpg)"
                 ></div>
-                <div class="blog-text">
-                  <span class="posted_on">Aug. 13th 2022</span>
-                  <h3>Citizen</h3>
+              </div>
+            </div>
+            <h1>Ananda Prasetyo</h1>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+            <h2>
+              Welcome! I'm a
+              <span id="typed"></span>
+            </h2>
+          </div>
+
+          <ul class="services-list">
+            <li class="service-item">
+              <button id="selector" class="btn btn-primary collapsed">
+                [About]
+              </button>
+              <div>
+                <div class="well">
                   <p>
-                    Public can use this app to report damaged facility by simply
-                    scanning the QR code and uploading evidence of damage. The
-                    data gathered via this application is believed to be
-                    valuable for the government in evaluating the performance of
-                    public facilities.
+                    I am a bachelor of informatics from Muhammadiyah University
+                    of Sidoarjo who studied several fields. Especially UI/UX
+                    design, product branding, and web development. The
+                    informatics major that I took made me proficient in
+                    operating and solving computer problems. I am enthusiastic
+                    to learn and I have a high sense of responsibility.
                   </p>
-                  <ul class="stuff">
-                    <li><i class="icon-laptop2"></i>App + Web</li>
-                    <li>
-                      <a href="/images/portfolio/citizen.jpg" target="_blank"
-                        >Read More<i class="icon-arrow-right22"></i
-                      ></a>
-                    </li>
-                  </ul>
                 </div>
               </div>
-            </div>
-            <div class="col-md-4">
-              <div class="fh5co-blog animate-box">
-                <div
-                  class="blog-bg"
-                  style="background-image: url(images/portfolio/ngemeal-h.jpg)"
-                ></div>
-                <div class="blog-text">
-                  <span class="posted_on">Jul. 22th 2021</span>
-                  <h3>NgeMeal</h3>
+            </li>
+            <li class="service-item">
+              <button id="selector" class="btn btn-primary collapsed">
+                [Education]
+              </button>
+              <div>
+                <div class="well">
+                  <p><b>Bachelor of Informatics</b></p>
+                  <p>Muhammadiyah University of Sidoarjo (2018-2022)</p>
                   <p>
-                    ngeMeal is our solution to an issue with food ordering.
-                    Designed to make ordering meals in the college's own food
-                    court easier for students. Particularly conditioned as the
-                    new normal, which is advised to prevent direct touch and
-                    avoid crowding.
+                    Learn the basics of program development, database creation,
+                    system design with various methods, and UI/UX design.
                   </p>
-                  <ul class="stuff">
-                    <li><i class="icon-mobile2"></i>App</li>
-                    <li>
-                      <a href="/images/portfolio/ngemeal.jpg" target="_blank"
-                        >Read More<i class="icon-arrow-right22"></i
-                      ></a>
-                    </li>
-                  </ul>
+                  <p>GPA: 3.6/4.0</p>
                 </div>
               </div>
-            </div>
-            <div class="col-md-4">
-              <div class="fh5co-blog animate-box">
-                <div
-                  class="blog-bg"
-                  style="background-image: url(images/portfolio/fizzle-h.jpg)"
-                ></div>
-                <div class="blog-text">
-                  <span class="posted_on">Sep. 10th 2020</span>
-                  <h3>Fizzle</h3>
+            </li>
+            <li class="service-item">
+              <button id="selector" class="btn btn-primary collapsed">
+                [Experience]
+              </button>
+              <div>
+                <div class="well">
                   <p>
-                    Fizzle is a criminal report application based on mobile,
-                    that allows you to search and find persons who have
-                    committed in crimes. The Fizzle app can assist in the search
-                    for criminals who have submitted their data inclucing hint,
-                    clue, and evidence of crime using the Fizzle app.
+                    <b>Invoice Clerk </b>
                   </p>
-                  <ul class="stuff">
-                    <li><i class="icon-mobile2"></i>App</li>
-                    <li>
-                      <a href="/images/portfolio/fizzle.jpg" target="_blank"
-                        >Read More<i class="icon-arrow-right22"></i
-                      ></a>
-                    </li>
-                  </ul>
+                  <p>PT. Mandiri Jaya Steel (May 2023 - present)</p>
+                  <p>
+                    Create accurate invoices, managing invoice archives, and
+                    prepare return letters. Maintain records and handle queries
+                    using invoicing software. Skilled in collaborating with
+                    cross-functional teams and ensuring compliance with legal
+                    and regulatory requirements.
+                  </p>
+                </div>
+                <div class="well">
+                  <p>
+                    <b>IT Support</b>
+                  </p>
+                  <p>PT. Telkom Indonesia, Tbk (Sep-Oct 2020)</p>
+                  <p>
+                    Assigned to collect and process attenuation measurement data
+                    on Telkom's network. Responsible for the customer network's
+                    experience with an anomaly and the search for status or
+                    information pertaining to it.
+                  </p>
                 </div>
               </div>
-            </div>
+            </li>
+            <li class="service-item">
+              <button id="selector" class="btn btn-primary collapsed">
+                [Publication]
+              </button>
+              <div>
+                <div class="well">
+                  <p><b>Web Service Based Facility Damage Report</b></p>
+                  <p>JIPI Vol 7 No 4 (Dec - 2022)</p>
+                  <p>
+                    Result of this research is a web service-based facility
+                    damage report system, that allows data to be accessed freely
+                    and in real time.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="service-item">
+              <button id="selector" class="btn btn-primary collapsed">
+                [Certification]
+              </button>
+              <div>
+                <div class="well">
+                  <p>IT Support Google / Coursera (Jul - 2023)</p>
+                  <p>
+                    Foundations of User Experience UX Design / Coursera (Aug -
+                    2022)
+                  </p>
+                  <p>
+                    Gojek Product Photography Program / Digital Talent (Mar -
+                    2022)
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="service-item">
+              <button id="selector" class="btn btn-primary collapsed">
+                [Contact]
+              </button>
+              <div>
+                <div class="well">
+                  <a
+                    href="mailto:anadysm@gmail.com"
+                    target="_blank"
+                    rel="noreferrer"
+                    >Email</a
+                  ><br /><br />
+                  <a
+                    href="https://linkedin.com/in/anadysm"
+                    target="_blank"
+                    rel="noreferrer"
+                    >LinkedIn</a
+                  ><br /><br />
+                  <a
+                    href="https://github.com/anadysm"
+                    target="_blank"
+                    rel="noreferrer"
+                    >GitHub</a
+                  ><br /><br />
+                  <a
+                    href="https://t.me/anadysm"
+                    target="_blank"
+                    rel="noreferrer"
+                    >Telegram</a
+                  >
+                </div>
+              </div>
+            </li>
+          </ul>
+
+          <div class="footer">
+            <p id="quote"></p>
           </div>
-          <div class="container">
-            <div class="row animate-box"></div>
-            <div class="row">
-              <div class="col-md-3 text-center col-padding animate-box">
-                <a
-                  class="work"
-                  style="background-image: url(images/logo/brand1.jpg)"
-                >
-                  <div class="desc">
-                    <h3>Jadiberkesan</h3>
-                    <span>Branding</span>
-                  </div>
-                </a>
-              </div>
-              <div class="col-md-3 text-center col-padding animate-box">
-                <a
-                  class="work"
-                  style="background-image: url(images/logo/brand2.jpg)"
-                >
-                  <div class="desc">
-                    <h3>Jan Seger</h3>
-                    <span>Branding</span>
-                  </div>
-                </a>
-              </div>
-              <div class="col-md-3 text-center col-padding animate-box">
-                <a
-                  class="work"
-                  style="background-image: url(images/logo/brand3.jpg)"
-                >
-                  <div class="desc">
-                    <h3>cataclysm</h3>
-                    <span>Logo Design</span>
-                  </div>
-                </a>
-              </div>
-              <div class="col-md-3 text-center col-padding animate-box">
-                <a
-                  class="work"
-                  style="background-image: url(images/logo/brand4.jpg)"
-                >
-                  <div class="desc">
-                    <h3>Man:festo</h3>
-                    <span>Logo Design</span>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
+        </section>
       </div>
     </div>
-
-    <div class="container">
-      <div class="row animate-box">
-        <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-          <a
-            href="http://s.id/anadysm"
-            target="_blank"
-            rel="noreferrer"
-            class="btn btn-default btn-lg"
-            >Download CV</a
-          >
-        </div>
-      </div>
-    </div>
-
-    <div id="fh5co-footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <p>
-              Best regards,<br />
-              Ananda Prasetyo
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="gototop js-top">
-      <a class="js-gotop"><i class="icon-arrow-up22"></i></a>
-    </div>
-
-    <!-- jQuery -->
-    <script src="js/jquery.min.js"></script>
-    <!-- jQuery Easing -->
-    <script src="js/jquery.easing.1.3.js"></script>
-    <!-- Bootstrap -->
-    <script src="js/bootstrap.min.js"></script>
-    <!-- Waypoints -->
-    <script src="js/jquery.waypoints.min.js"></script>
-    <!-- Stellar Parallax -->
-    <script src="js/jquery.stellar.min.js"></script>
-
-    <script src="js/main.js"></script>
+    <script type="text/javascript" src="/assets/js/plugins.js"></script>
+    <script type="text/javascript" src="/assets/js/main.js"></script>
+    <script type="text/javascript" src="/assets/js/weather.js"></script>
+    <script type="text/javascript" src="/assets/js/quote.js"></script>
+    <script type="text/javascript" src="/assets/js/whoami.js"></script>
   </body>
 </html>
