@@ -84,10 +84,24 @@ button {
   html {
     font-size: 8px;
   }
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    margin-top: -0.1rem;
+    font-size: 1.5rem;
+  }
 }
 @media (max-width: 500px) {
   html {
     font-size: 7px;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    margin-top: -0.1rem;
+    font-size: 1.5rem;
   }
 }
 .preloader {
