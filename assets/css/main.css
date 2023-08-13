@@ -55,9 +55,8 @@ a:focus {
   text-decoration: none;
 }
 a::after {
-  content: '🡭';
-  margin-left: 2px;
-  font-size: 1.5rem;
+  content: ' >>';
+  line-height: 0;
   vertical-align: super;
 }
 del,
