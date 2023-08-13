@@ -52,9 +52,14 @@ a:focus {
   font-size: 1.8rem;
   line-height: 1.7em;
   color: #fff;
-  text-decoration: underline;
+  text-decoration: none;
 }
-
+a::after {
+  content: '🡭';
+  margin-left: 2px;
+  font-size: 1.5rem;
+  vertical-align: super;
+}
 del,
 u {
   color: #fff;
