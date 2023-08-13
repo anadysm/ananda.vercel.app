@@ -16,9 +16,7 @@ body {
   color: #000;
   background: #e6e6e6;
 }
-.lightmode .icon,
 .lightmode .menu-list li a,
-.lightmode .featherlight .featherlight-content .featherlight-close-icon,
 .lightmode .btn-primary,
 .lightmode .btn-primary:hover,
 .lightmode .btn-primary:focus,
@@ -30,6 +28,7 @@ h1,
 h2 {
   padding-left: 4rem;
   letter-spacing: 0.02em;
+  width: 100%;
   color: #fff;
 }
 h1 {
@@ -38,8 +37,9 @@ h1 {
   float: left;
 }
 h2 {
+  margin-top: 0;
   font-weight: 300;
-  font-size: 2rem;
+  font-size: 1.8rem;
   float: left;
 }
 p {
@@ -84,69 +84,10 @@ button {
   html {
     font-size: 9px;
   }
-  h1 {
-    margin-left: -4rem;
-    font-size: 3rem;
-  }
-  h2 {
-    margin-left: -4rem;
-    margin-top: 1rem;
-    font-size: 2rem;
-  }
 }
 @media (max-width: 500px) {
   html {
     font-size: 8px;
-  }
-  h1 {
-    margin-left: -6rem;
-    font-size: 3rem;
-  }
-  h2 {
-    margin-left: -6rem;
-    margin-top: 1rem;
-    font-size: 2rem;
-  }
-}
-@media (max-width: 450px) {
-  html {
-    font-size: 8px;
-  }
-  h1 {
-    margin-left: -6rem;
-    font-size: 3rem;
-  }
-  h2 {
-    margin-left: -6rem;
-    margin-top: 1rem;
-    font-size: 1.7rem;
-  }
-}
-@media (max-width: 400px) {
-  html {
-    font-size: 8px;
-  }
-  h1 {
-    font-size: 2.7rem;
-  }
-  h2 {
-    margin-top: 1rem;
-    font-size: 1.4rem;
-  }
-}
-@media (max-width: 300px) {
-  html {
-    font-size: 7px;
-  }
-  h1 {
-    margin-left: 0.1rem;
-    margin-top: -2rem;
-    font-size: 3rem;
-  }
-  h2 {
-    margin-left: 0.1rem;
-    margin-top: 1rem;
-    font-size: 1.5rem;
   }
 }
 .content-area {
@@ -228,6 +169,7 @@ button {
   font-size: 2rem;
   line-height: 1.7em;
   font-weight: 600;
+  cursor: pointer;
 }
 .temp {
   font-size: 2rem;
@@ -302,30 +244,13 @@ button {
   width: 17rem;
   height: 17rem;
   margin-bottom: 0px;
+  margin-left: 4rem;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   border-radius: 50%;
 }
-@media (max-width: 600px) {
-  #work .showcase .item .background-image {
-    width: 14rem;
-    height: 14rem;
-  }
-}
-@media (max-width: 500px) {
-  #work .showcase .item .background-image {
-    width: 12rem;
-    height: 12rem;
-  }
-}
-@media (max-width: 300px) {
-  #work .showcase .item .background-image {
-    margin-left: 4rem;
-  }
-}
-.lightmode .col-md-3,
-.lightmode #work .showcase .item .proto {
+.lightmode .col-md-3 {
   filter: invert(1);
 }
 .footer {
