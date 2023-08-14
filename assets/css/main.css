@@ -21,7 +21,7 @@ body {
 .lightmode .btn-primary:hover,
 .lightmode .btn-primary:focus,
 .lightmode .btn-primary:active,
-.lightmode #service .services-list li button::after {
+.lightmode #resume .resumes-list li button::after {
   color: #000;
 }
 h1,
@@ -47,12 +47,15 @@ p {
   line-height: 1.7em;
 }
 a,
-a:hover,
 a:focus {
   font-size: 1.8rem;
   line-height: 1.7em;
   color: #fff;
   text-decoration: none;
+}
+a:hover {
+  color: #fff;
+  text-decoration: underline;
 }
 a::after {
   content: ' >>';
@@ -131,7 +134,7 @@ button {
   border: none;
 }
 .lightmode .box,
-.lightmode #service .services-list li button,
+.lightmode #resume .resumes-list li button,
 .lightmode .featherlight .featherlight-content {
   background: #e6e6e6;
 }
@@ -188,15 +191,15 @@ button {
     line-height: 50px;
   }
 }
-#service .services-list {
+#resume .resumes-list {
   margin-bottom: 0;
   padding: 0;
   list-style: none;
 }
-#service .services-list li {
+#resume .resumes-list li {
   display: block;
 }
-#service .services-list li button {
+#resume .resumes-list li button {
   font-size: 2rem;
   font-weight: 600;
   line-height: 3.4em;
@@ -209,18 +212,17 @@ button {
   border-radius: 0px;
   background: #1a1a1a;
 }
-#service .services-list li button::after {
+#resume .resumes-list li button::after {
   font-size: 2rem;
   position: absolute;
   top: 50%;
   right: 18px;
-  content: '+';
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   color: #fff;
 }
-#service .services-list li .well {
+#resume .resumes-list li .well {
   min-height: 20px;
   margin-bottom: 0;
   padding: 0;
@@ -233,17 +235,17 @@ button {
   -webkit-box-shadow: none;
   box-shadow: none;
 }
-#work .showcase .item {
+#profile .showcase .item {
   width: 17rem;
   height: 17rem;
   margin-left: 0px;
   background: none;
   float: left;
 }
-#work .showcase .item:last-child {
+#profile .showcase .item:last-child {
   margin-bottom: 1rem;
 }
-#work .showcase .item .background-image {
+#profile .showcase .item .background-image {
   position: absolute;
   width: 17rem;
   height: 17rem;
@@ -261,7 +263,4 @@ button {
   font-size: 1.8rem;
   padding-top: 40px;
   pointer-events: auto;
-}
-#selector::after {
-  display: none;
 }
