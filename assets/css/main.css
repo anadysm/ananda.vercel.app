@@ -8,13 +8,13 @@ body {
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
   font-style: normal;
-  color: #fff;
-  background: #1a1a1a;
+  color: #eee;
+  background: #222;
   -webkit-font-smoothing: antialiased;
 }
 .lightmode {
-  color: #000;
-  background: #e6e6e6;
+  color: #222;
+  background: #eee;
 }
 .lightmode .menu-list li a,
 .lightmode .btn-primary,
@@ -22,14 +22,14 @@ body {
 .lightmode .btn-primary:focus,
 .lightmode .btn-primary:active,
 .lightmode #resume .resumes-list li button::after {
-  color: #000;
+  color: #222;
 }
 h1,
 h2 {
-  padding-left: 4rem;
+  padding-left: 3.5rem;
   letter-spacing: 0.02em;
   width: 100%;
-  color: #fff;
+  color: #eee;
 }
 h1 {
   font-weight: 600;
@@ -42,19 +42,17 @@ h2 {
   font-size: 1.8rem;
   float: left;
 }
-p {
-  font-size: 1.8rem;
-  line-height: 1.7em;
-}
 a,
+p,
+span,
 a:focus {
   font-size: 1.8rem;
   line-height: 1.7em;
-  color: #fff;
+  color: #eee;
   text-decoration: none;
 }
 a:hover {
-  color: #fff;
+  color: #eee;
   text-decoration: underline;
 }
 a::after {
@@ -64,19 +62,21 @@ a::after {
 }
 del,
 u {
-  color: #fff;
+  color: #eee;
 }
 .lightmode a,
 .lightmode a:hover,
 .lightmode a:focus,
+.lightmode p,
+.lightmode span,
 .lightmode h1,
 .lightmode h2,
 .lightmode del,
 .lightmode u {
-  color: #000;
+  color: #222;
 }
 button {
-  border: 2px solid #fff;
+  border: 2px solid #eee;
   background: none;
 }
 .btn-primary,
@@ -136,7 +136,7 @@ button {
 .lightmode .box,
 .lightmode #resume .resumes-list li button,
 .lightmode .featherlight .featherlight-content {
-  background: #e6e6e6;
+  background: #eee;
 }
 .links {
   width: 100%;
@@ -149,11 +149,11 @@ button {
   letter-spacing: 0.1em;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 1.5px;
-  -webkit-text-stroke-color: #fff;
+  -webkit-text-stroke-color: #eee;
   text-shadow: 5px 5px #e3fc00;
 }
 .lightmode .glitch {
-  -webkit-text-stroke-color: #000;
+  -webkit-text-stroke-color: #222;
   text-shadow: 5px 5px #f06334;
 }
 .content {
@@ -210,7 +210,7 @@ button {
   text-align: left;
   border: none;
   border-radius: 0px;
-  background: #1a1a1a;
+  background: #222;
 }
 #resume .resumes-list li button::after {
   font-size: 2rem;
@@ -220,7 +220,7 @@ button {
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  color: #fff;
+  color: #eee;
 }
 #resume .resumes-list li .well {
   min-height: 20px;
@@ -250,7 +250,7 @@ button {
   width: 17rem;
   height: 17rem;
   margin-bottom: 0px;
-  margin-left: 4rem;
+  margin-left: 3.5rem;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -263,4 +263,8 @@ button {
   font-size: 1.8rem;
   padding-top: 40px;
   pointer-events: auto;
+}
+.p1,
+.lightmode .p1 {
+  color: #888;
 }
