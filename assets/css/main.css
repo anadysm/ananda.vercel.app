@@ -20,8 +20,7 @@ body {
 .lightmode .btn-primary,
 .lightmode .btn-primary:hover,
 .lightmode .btn-primary:focus,
-.lightmode .btn-primary:active,
-.lightmode #resume .resumes-list li button::after {
+.lightmode .btn-primary:active {
   color: #222;
 }
 h1,
@@ -75,10 +74,6 @@ u {
 .lightmode u {
   color: #222;
 }
-button {
-  border: 2px solid #eee;
-  background: none;
-}
 .btn-primary,
 .btn-primary:hover,
 .btn-primary:focus,
@@ -105,7 +100,7 @@ button {
 .content-area .content-area-inner {
   position: relative;
   width: 100%;
-  padding: 0 20px;
+  padding: 90px 20px 0px;
   overflow-x: hidden;
 }
 .content-area .content-area-inner section {
@@ -118,29 +113,6 @@ button {
 .content-area .content-area-inner section h2.headline {
   margin-bottom: 1.4em;
   font-weight: 500;
-}
-.box {
-  font-size: 2.4rem;
-  font-size: 2rem;
-  font-weight: 300;
-  line-height: 3.4em;
-  margin-bottom: 1rem;
-  min-height: 50px;
-  background: #252525;
-  display: block;
-  width: 100%;
-  padding-left: 22px;
-  text-align: left;
-  border: none;
-}
-.lightmode .box,
-.lightmode #resume .resumes-list li button,
-.lightmode .featherlight .featherlight-content {
-  background: #eee;
-}
-.links {
-  width: 100%;
-  display: block;
 }
 .glitch {
   font-weight: 500;
@@ -212,6 +184,9 @@ button {
   border-radius: 0px;
   background: #222;
 }
+.lightmode #resume .resumes-list li button {
+  background: #eee;
+}
 #resume .resumes-list li .well {
   min-height: 20px;
   margin-bottom: 0;
@@ -228,26 +203,19 @@ button {
 #profile .showcase .item {
   width: 17rem;
   height: 17rem;
-  margin-left: 0px;
-  background: none;
-  float: left;
-}
-#profile .showcase .item:last-child {
-  margin-bottom: 1rem;
-}
-#profile .showcase .item .background-image {
-  position: absolute;
-  width: 17rem;
-  height: 17rem;
   margin-left: 3.5rem;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   border-radius: 50%;
+  background-image: url(/assets/img/profile/ananda.jpg);
 }
 .footer {
   padding-top: 45px;
   pointer-events: auto;
+}
+.desc {
+  display: none;
 }
 .p1,
 .lightmode .p1 {
