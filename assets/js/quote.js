@@ -12,6 +12,8 @@ var quotes = [
   'This is not what I want, but this is what it should be.',
   'Good designer copy, great designer steal.',
   "I'm the designer of my own cataclysm.",
+  "Silence isn't empty, it's full of answer.",
+  "You miss 100% of shots you don't take.",
   'Spoiler, we die in the end.',
   'Failure builds character.',
   'If you get tired, learn to rest not quit.',
@@ -27,8 +29,11 @@ var quotes = [
   "You can't chase happiness, you must create them.",
   "Everything's real but not everyone's true.",
   "What we know is a drop, what we don't know is an ocean.",
+  'Icarus flew too close to the sun and melted his wings.',
   'Time is just a stubborn illusion.',
   'Time without purpose is a prison.',
+  'No sound without silence.',
+  'Pain makes people change.',
 ];
 
 function newQuote() {
