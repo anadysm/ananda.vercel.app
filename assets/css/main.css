@@ -212,16 +212,6 @@ button {
   border-radius: 0px;
   background: #222;
 }
-#resume .resumes-list li button::after {
-  font-size: 2rem;
-  position: absolute;
-  top: 50%;
-  right: 18px;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  color: #eee;
-}
 #resume .resumes-list li .well {
   min-height: 20px;
   margin-bottom: 0;
@@ -249,19 +239,14 @@ button {
   position: absolute;
   width: 17rem;
   height: 17rem;
-  margin-bottom: 0px;
   margin-left: 3.5rem;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   border-radius: 50%;
 }
-.lightmode .col-md-3 {
-  filter: invert(1);
-}
 .footer {
-  font-size: 1.8rem;
-  padding-top: 40px;
+  padding-top: 45px;
   pointer-events: auto;
 }
 .p1,
