@@ -1,6 +1,4 @@
 var temp = document.querySelector('.temp');
-var desc = document.querySelector('.desc');
-
 fetch(
   'https://api.openweathermap.org/data/2.5/weather?q=Sidoarjo,id&appid=3d2bf4920f84fd2059751bbe45a62b3a'
 )
@@ -61,14 +59,14 @@ var quotes = [
   "This is my dream? I'm not even sleeping.",
   'Everything takes longer than you think.',
   'Sooner your dream comes, sooner you get bored.',
-  'Your life is fine, you are the disaster itself.',
-  'Deny, anger, bragaining, depression and acceptance.',
+  "Your life it's fine, you are the disaster itself.",
+  'Deny, anger, bargaining, depression and acceptance.',
   'Life seems but a quick succession of busy nothings.',
   'Our scars make us know that our past was for real.',
   'I cannot speak well enough to be unintelligible.',
   "I didn't choose this life.",
   'Every solution breeds new problems.',
-  'This is not what I want, but this is what it should be.',
+  "People don't die from suicide, they die from sadness.",
   'Good designer copy, great designer steal.',
   "I'm the designer of my own cataclysm.",
   "Silence isn't empty, it's full of answer.",
@@ -93,6 +91,11 @@ var quotes = [
   'Time without purpose is a prison.',
   'No sound without silence.',
   'Pain makes people change.',
+  "We repeat what we don't repair.",
+  "Sleep just isn't sleep anymore, it's an escape.",
+  "You can't stop the waves, but you can learn to surf.",
+  "You can't ask nicely to remove chaos.",
+  'And then suddenly I became sad for no reason at all.',
 ];
 
 function newQuote() {
