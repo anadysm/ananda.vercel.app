@@ -55,29 +55,32 @@
   </head>
   <body>
     <div class="content-area">
-      <nav class="navbar">
-        <div class="content">
-          <p id="lightBtn" onclick="setLightMode()">[<del>L:ght</del>]</p>
-          <p class="icon cancel-btn"></p>
-          <p class="icon menu-btn"></p>
-          <p class="temp"></p>
-        </div>
-      </nav>
       <div class="content-area-inner">
         <section id="resume">
-          <div id="profile">
-            <div class="showcase">
-              <div class="item"></div>
-            </div>
-            <h1 class="glitch"><i>Ananda Prasetyo</i></h1>
-            <script type="text/javascript" src="/assets/js/typed.js"></script>
-            <h2>
-              Hey! I am
-              <span id="typed"></span>
-            </h2>
-          </div>
           <ul class="resumes-list">
             <li class="resume-item">
+              <p class="temp"></p>
+              <button
+                class="btn btn-primary collapsed"
+                id="lightBtn"
+                onclick="setLightMode()"
+              >
+                [<del>L:ght</del>]
+              </button>
+              <div id="profile">
+                <div class="showcase">
+                  <div class="item"></div>
+                </div>
+                <h1 class="glitch"><i>Ananda Prasetyo</i></h1>
+                <script
+                  type="text/javascript"
+                  src="/assets/js/typed.js"
+                ></script>
+                <h2>
+                  Hey! I am
+                  <span id="typed"></span>
+                </h2>
+              </div>
               <h2></h2>
               <button class="btn btn-primary collapsed">[About]</button>
               <div class="well">
@@ -228,7 +231,6 @@
             </li>
           </ul>
           <div class="footer">
-            <b class="desc"></b>
             <p id="quote"></p>
           </div>
         </section>
