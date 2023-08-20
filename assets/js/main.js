@@ -6,9 +6,7 @@ fetch(
 )
   .then((response) => response.json())
   .then((data) => {
-    var tempValue = data['main']['temp'];
-    var descValue = data['weather'][0]['description'];
-    desc.innerHTML = descValue;
+    var tempValue = data['main']['feels_like'];
     temp.innerHTML = Math.trunc(tempValue - 273) + '\u00B0C';
   });
 
