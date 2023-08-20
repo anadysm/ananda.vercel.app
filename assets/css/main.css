@@ -144,16 +144,14 @@ u {
   align-items: center;
   justify-content: space-between;
 }
-.navbar #lightBtn {
-  font-size: 2rem;
-  line-height: 1.7em;
-  font-weight: 600;
-  cursor: pointer;
-}
+.navbar #lightBtn,
 .temp {
   font-size: 2rem;
   line-height: 1.7em;
   font-weight: 600;
+}
+#lightBtn {
+  cursor: pointer;
 }
 @media (max-width: 700px) {
   .content {
@@ -213,9 +211,6 @@ u {
 .footer {
   padding-top: 45px;
   pointer-events: auto;
-}
-.desc {
-  display: none;
 }
 .p1,
 .lightmode .p1 {
