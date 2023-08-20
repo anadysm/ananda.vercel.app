@@ -63,6 +63,9 @@ del,
 u {
   color: #eee;
 }
+b {
+  font-weight: 600;
+}
 .lightmode a,
 .lightmode a:hover,
 .lightmode a:focus,
@@ -110,10 +113,6 @@ u {
 .content-area .content-area-inner section:last-child {
   margin-bottom: 10vh;
 }
-.content-area .content-area-inner section h2.headline {
-  margin-bottom: 1.4em;
-  font-weight: 500;
-}
 .glitch {
   font-weight: 500;
   font-size: 5rem;
@@ -160,6 +159,7 @@ u {
   position: relative;
   padding-left: 0px;
   text-align: left;
+  display: block;
   border: none;
   border-radius: 0px;
   background: #222;
