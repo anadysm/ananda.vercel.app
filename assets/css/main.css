@@ -100,7 +100,7 @@ u {
 .content-area .content-area-inner {
   position: relative;
   width: 100%;
-  padding: 90px 20px 0px;
+  padding: 0px 20px 0px;
   overflow-x: hidden;
 }
 .content-area .content-area-inner section {
@@ -128,37 +128,21 @@ u {
   -webkit-text-stroke-color: #222;
   text-shadow: 5px 5px #f06334;
 }
-.content {
-  margin: auto;
-  padding: 0px 0px;
-  max-width: 700px;
-}
-.navbar {
-  position: absolute;
-  z-index: 5;
-  width: 100%;
-  padding: 25px 0;
-}
-.navbar .content {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.navbar #lightBtn,
 .temp {
   font-size: 2rem;
-  line-height: 1.7em;
+  line-height: 3.4em;
   font-weight: 600;
+  padding-top: 10px;
+  float: right;
 }
 #lightBtn {
+  padding-top: 10px;
+  padding-bottom: 10px;
   cursor: pointer;
 }
 @media (max-width: 750px) {
   .content {
     padding: 0px 18px;
-  }
-  #lightBtn {
-    line-height: 50px;
   }
 }
 #resume .resumes-list {
@@ -174,8 +158,6 @@ u {
   font-weight: 600;
   line-height: 3.4em;
   position: relative;
-  display: block;
-  width: 100%;
   padding-left: 0px;
   text-align: left;
   border: none;
