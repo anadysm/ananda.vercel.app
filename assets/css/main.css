@@ -64,6 +64,8 @@ u {
   color: #eee;
 }
 b {
+  font-size: 1.8rem;
+  line-height: 1.7em;
   font-weight: 600;
 }
 .lightmode a,
@@ -128,10 +130,8 @@ b {
   text-shadow: 5px 5px #f06334;
 }
 .temp {
-  font-size: 2rem;
   line-height: 3.4em;
-  font-weight: 600;
-  padding-top: 10px;
+  padding-top: 12.5px;
   float: right;
 }
 #lightBtn {
