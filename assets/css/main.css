@@ -111,7 +111,7 @@ b {
   margin: 0 auto 20vh auto;
 }
 .content-area .content-area-inner section:last-child {
-  margin-bottom: 10vh;
+  margin-bottom: 8vh;
 }
 .glitch {
   font-weight: 500;
@@ -142,6 +142,9 @@ b {
 @media (max-width: 750px) {
   .content {
     padding: 0px 18px;
+  }
+  .content-area .content-area-inner section:last-child {
+    margin-bottom: 5vh;
   }
 }
 #resume .resumes-list {
