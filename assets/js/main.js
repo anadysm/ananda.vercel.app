@@ -39,8 +39,8 @@ function setLightMode() {
 
 new Typed('#typed', {
   strings: [
+    '^1500 a ^500 marketing ^700 staff',
     '^1500 an ^1000 IT ^800 Support',
-    '^1500 an ^500 invoice ^700 clerk',
     '^1500 a ^1000 UI / ^200 UX ^300 designer',
     '^1500 a ^1000 web ^700 developer',
     '^1500 a ^1500 part ^500 time ^100 gamer',
