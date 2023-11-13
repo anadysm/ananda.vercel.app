@@ -27,7 +27,7 @@ body {
 h1,
 h2 {
   padding-left: 3.5rem;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.1em;
   width: 100%;
   color: #eee;
 }
@@ -188,4 +188,7 @@ b {
 .p1,
 .lightmode .p1 {
   color: #888;
+}
+#typed {
+  letter-spacing: 0.1em;
 }
