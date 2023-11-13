@@ -5,8 +5,9 @@ html {
   color-scheme: dark;
 }
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'NType82-Regular', serif;
   font-weight: 300;
+  letter-spacing: 0.1em;
   font-style: normal;
   color: #eee;
   background: #222;
@@ -112,17 +113,8 @@ b {
 }
 .glitch {
   font-weight: 500;
-  font-size: 5rem;
+  font-size: 5.5rem;
   position: relative;
-  letter-spacing: 0.1em;
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke-width: 1.5px;
-  -webkit-text-stroke-color: #eee;
-  text-shadow: 5px 5px #e3fc00;
-}
-.lightmode .glitch {
-  -webkit-text-stroke-color: #222;
-  text-shadow: 5px 5px #f06334;
 }
 .temp {
   line-height: 3.4em;
@@ -154,6 +146,7 @@ b {
   font-size: 2rem;
   font-weight: 600;
   line-height: 3.4em;
+  letter-spacing: 0.1em;
   position: relative;
   padding-left: 0px;
   text-align: left;
