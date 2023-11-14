@@ -7,7 +7,8 @@ html {
 body {
   font-family: 'NType82-Regular', serif;
   font-weight: 300;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.52px;
+  word-spacing: 0.5em;
   font-style: normal;
   color: #eee;
   background: #222;
@@ -27,7 +28,7 @@ body {
 h1,
 h2 {
   padding-left: 3.5rem;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.52px;
   width: 100%;
   color: #eee;
 }
@@ -41,6 +42,11 @@ h2 {
   font-weight: 300;
   font-size: 1.8rem;
   float: left;
+}
+h3 {
+  letter-spacing: 0.52px;
+  font-weight: 300;
+  font-size: 4rem;
 }
 a,
 p,
@@ -65,9 +71,8 @@ u {
   color: #eee;
 }
 b {
-  font-size: 1.8rem;
   line-height: 1.7em;
-  font-weight: 600;
+  font-weight: 300;
 }
 .lightmode a,
 .lightmode a:hover,
@@ -113,12 +118,14 @@ b {
 }
 .glitch {
   font-weight: 500;
-  font-size: 5.5rem;
+  font-size: 6.5rem;
   position: relative;
 }
 .temp {
-  line-height: 3.4em;
-  padding-top: 0.88em;
+  font-size: 2.5rem;
+  font-weight: 300;
+  line-height: 2em;
+  padding-top: 1em;
   float: right;
 }
 #lightBtn {
@@ -143,10 +150,11 @@ b {
   display: block;
 }
 #resume .resumes-list li button {
-  font-size: 2rem;
-  font-weight: 600;
-  line-height: 3.4em;
-  letter-spacing: 0.1em;
+  font-size: 2.5rem;
+  font-weight: 300;
+  line-height: 2em;
+  padding-top: 1em;
+  letter-spacing: 0.52px;
   position: relative;
   padding-left: 0px;
   text-align: left;
@@ -187,8 +195,9 @@ b {
 }
 .p1,
 .lightmode .p1 {
+  line-height: 0.5em;
   color: #888;
 }
 #typed {
-  letter-spacing: 0.1em;
+  letter-spacing: 0.52px;
 }
