@@ -1,9 +1,0 @@
-@font-face {
-  font-family: 'NType82-Regular';
-  src: url('/font/NType82-Regular.eot'); /* IE9 Compat Modes */
-  src: url('/font/NType82-Regular.eot?#iefix') format('embedded-opentype'),
-    /* IE6-IE8 */ url('/font/NType82-Regular.woff') format('woff'),
-    /* Modern Browsers */ url('/font/NType82-Regular.ttf') format('truetype'),
-    /* Safari, Android, iOS */ url('/font/NType82-Regular.svg#svgFontName')
-      format('svg'); /* Legacy iOS */
-}
