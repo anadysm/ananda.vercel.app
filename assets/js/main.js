@@ -28,10 +28,10 @@ if (localStorage.getItem('theme') == 'light') setLightMode();
 function setLightMode() {
   let isLight = document.body.classList.toggle('lightmode');
   if (isLight) {
-    toggle = '<u>L:ght</u>';
+    toggle = 'Darkswitch';
     localStorage.setItem('theme', 'light');
   } else {
-    toggle = '<del>L:ght</del>';
+    toggle = 'Lightswitch';
     localStorage.removeItem('theme');
   }
   document.getElementById('lightBtn').innerHTML = toggle;
@@ -54,53 +54,3 @@ new Typed('#typed', {
   loop: true,
   smartBackspace: true,
 });
-
-var quotes = [
-  "This is my dream? I'm not even sleeping.",
-  'Everything takes longer than you think.',
-  'Sooner your dream comes, sooner you get bored.',
-  "Your life it's fine, you are the disaster itself.",
-  'Deny, anger, bargaining, depression and acceptance.',
-  'Life seems but a quick succession of busy nothings.',
-  'Our scars make us know that our past was for real.',
-  'I cannot speak well enough to be unintelligible.',
-  "I didn't choose this life.",
-  'Every solution breeds new problems.',
-  "People don't die from suicide, they die from sadness.",
-  'Good designer copy, great designer steal.',
-  "I'm the designer of my own cataclysm.",
-  "Silence isn't empty, it's full of answer.",
-  "You miss 100% of shots you don't take.",
-  'Spoiler, we die in the end.',
-  'Failure builds character.',
-  'If you get tired, learn to rest not quit.',
-  'The pure and simple truth is rarely pure and never simple.',
-  'Man invented language to satisfy his deep need to complain.',
-  'But without the dark, we never see the stars.',
-  'The world is full of monsters with friendly faces.',
-  'Hell is empty and all the devils are here.',
-  'Fake people have an image to maintain.',
-  "Don't try to be the best, just try to be good.",
-  "Words are free, it's how you use them that may cost you.",
-  'Sometimes you have to unfollow people in real life.',
-  "You can't chase happiness, you must create them.",
-  "Everything's real but not everyone's true.",
-  "What we know is a drop, what we don't know is an ocean.",
-  'Icarus flew too close to the sun and melted his wings.',
-  'Time is just a stubborn illusion.',
-  'Time without purpose is a prison.',
-  'No sound without silence.',
-  'Pain makes people change.',
-  "We repeat what we don't repair.",
-  "Sleep just isn't sleep anymore, it's an escape.",
-  "You can't stop the waves, but you can learn to surf.",
-  "You can't ask nicely to remove chaos.",
-  'And then suddenly I became sad for no reason at all.',
-];
-
-function newQuote() {
-  var randomNumber = Math.floor(Math.random() * quotes.length);
-  document.getElementById('quote').innerHTML = quotes[randomNumber];
-}
-
-newQuote();
