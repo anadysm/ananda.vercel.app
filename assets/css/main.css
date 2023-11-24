@@ -1,11 +1,111 @@
 html {
   font-size: 10px;
+  font-family: NType82-Regular;
+}
+body {
+  margin: 0;
+}
+@font-face {
+  font-family: 'NType82-Regular';
+  src: url('/font/NType82-Regular.eot');
+  src: url('/font/NType82-Regular.eot?#iefix') format('embedded-opentype'),
+    url('/font/NType82-Regular.woff') format('woff'),
+    url('/font/NType82-Regular.ttf') format('truetype'),
+    url('/font/NType82-Regular.svg#svgFontName') format('svg');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Ndot-55';
+  src: url('/font/Ndot-55.eot');
+  src: url('/font/Ndot-55.eot?#iefix') format('embedded-opentype'),
+    url('/font/Ndot-55.woff') format('woff'),
+    url('/font/Ndot-55.ttf') format('truetype'),
+    url('/font/Ndot-55.svg#svgFontName') format('svg');
+  font-display: swap;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+a {
+  background-color: transparent;
+}
+h1 {
+  margin: 0.67em 0;
+  font-size: 2em;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:after,
+:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  font-family: NType82-Regular;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
+}
+a {
+  color: #337ab7;
+  text-decoration: none;
+}
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 500;
+  line-height: 1.1;
+}
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+p {
+  margin: 0 0 10px;
+}
+ol,
+ul {
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 :root {
   color-scheme: dark;
 }
 body {
-  font-family: 'NType82-Regular', serif;
+  font-family: 'NType82-Regular';
   font-weight: 300;
   letter-spacing: 0.52px;
   word-spacing: 0.5em;
@@ -17,13 +117,6 @@ body {
 .lightmode {
   color: #222;
   background: #eee;
-}
-.lightmode .menu-list li a,
-.lightmode .btn-primary,
-.lightmode .btn-primary:hover,
-.lightmode .btn-primary:focus,
-.lightmode .btn-primary:active {
-  color: #222;
 }
 h1,
 h2 {
@@ -41,23 +134,23 @@ h2 {
   font-weight: 300;
   font-size: 1.8rem;
 }
-h3,
+h4,
 h5 {
   letter-spacing: 0.52px;
   font-weight: 300;
   font-size: 4rem;
   line-height: 1em;
 }
-h4 {
+h3 {
   font-size: 1.8rem;
   font-weight: 300;
-  padding-top: 2rem;
+  padding-top: 1rem;
   line-height: 0.1em;
   letter-spacing: 0.52px;
   padding-left: 1.5rem;
 }
 h5 {
-  padding-top: 0.6em;
+  padding-top: 0.4em;
 }
 a,
 p,
@@ -95,14 +188,6 @@ b {
 .lightmode del,
 .lightmode u {
   color: #222;
-}
-.btn-primary,
-.btn-primary:hover,
-.btn-primary:focus,
-.btn-primary:active {
-  outline: none !important;
-  -webkit-box-shadow: none;
-  box-shadow: none;
 }
 @media (max-width: 600px) {
   html {
@@ -178,7 +263,7 @@ b {
   background-position: center;
   background-size: cover;
   border-radius: 50%;
-  background-image: url(/assets/img/profile/ananda.jpg);
+  background-image: url(/assets/img/profile/ananda.webp);
 }
 .footer {
   margin-left: 1.5rem;
