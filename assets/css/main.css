@@ -215,7 +215,7 @@ b {
 .glyph {
   font-family: Ndot-55;
   font-weight: 300;
-  font-size: 5.5rem;
+  font-size: 5rem;
   position: relative;
 }
 .temp {
@@ -254,16 +254,43 @@ b {
   -webkit-box-shadow: none;
   box-shadow: none;
 }
-#profile .showcase .item {
+#profile .item {
   margin-top: 5rem;
-  width: 17rem;
-  height: 17rem;
+  width: 15rem;
+  height: 15rem;
   margin-left: 1.5rem;
+  margin-bottom: 2rem;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   border-radius: 50%;
   background-image: url(/assets/img/profile/ananda.webp);
+}
+.showcase {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+.item2 {
+  padding-top: 6rem;
+  padding-left: 2rem;
+}
+@media (max-width: 700px) {
+  .showcase {
+    flex-direction: column;
+  }
+  #profile .item {
+    width: 17rem;
+    height: 17rem;
+    margin-bottom: 0;
+  }
+  .item2 {
+    padding-top: 0;
+    padding-left: 0;
+  }
+  .glyph {
+    font-size: 5.5rem;
+  }
 }
 .footer {
   margin-left: 1.5rem;
