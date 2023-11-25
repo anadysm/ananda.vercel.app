@@ -3,7 +3,17 @@ html {
   font-family: NType82-Regular;
 }
 body {
+  font-family: 'NType82-Regular';
+  font-weight: 300;
+  letter-spacing: 0.52px;
+  word-spacing: 0.5em;
+  font-style: normal;
+  color: #eee;
+  background: #111;
+  font-size: 14px;
+  line-height: 1.42857143;
   margin: 0;
+  -webkit-font-smoothing: antialiased;
 }
 @font-face {
   font-family: 'NType82-Regular';
@@ -38,13 +48,6 @@ section,
 summary {
   display: block;
 }
-a {
-  background-color: transparent;
-}
-h1 {
-  margin: 0.67em 0;
-  font-size: 2em;
-}
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -55,17 +58,6 @@ h1 {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-}
-body {
-  font-family: NType82-Regular;
-  font-size: 14px;
-  line-height: 1.42857143;
-  color: #333;
-  background-color: #fff;
-}
-a {
-  color: #337ab7;
-  text-decoration: none;
 }
 .h1,
 .h2,
@@ -103,16 +95,6 @@ ul {
 }
 :root {
   color-scheme: dark;
-}
-body {
-  font-family: 'NType82-Regular';
-  font-weight: 300;
-  letter-spacing: 0.52px;
-  word-spacing: 0.5em;
-  font-style: normal;
-  color: #eee;
-  background: #111;
-  -webkit-font-smoothing: antialiased;
 }
 .lightmode {
   color: #222;
