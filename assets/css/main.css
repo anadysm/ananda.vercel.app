@@ -166,6 +166,7 @@ a:hover {
 a::after {
   content: ' >>';
   line-height: 0;
+  color: #111;
   vertical-align: super;
 }
 b {
